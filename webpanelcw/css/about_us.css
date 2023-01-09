@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-edit {
+    background-color: rgb(226, 162, 44);
+    color: #FFF;
+}
+
+.btn-edit:hover {
+    background-color: rgb(190, 124, 0);
+    color: #FFF;
+}
+
+.btn-save {
+    background-color: rgb(52, 129, 52);
+    color: #FFF;
+    margin: 10px auto;
+}
+.btn-save:hover{
+    background-color:  rgb(32, 80, 32);
+    color:#FFF ;
+}
+
+@media (max-width: 768px) {}
+
+@media (min-width: 1200px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+}

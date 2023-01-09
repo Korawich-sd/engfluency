@@ -1,0 +1,70 @@
+.btn-edit-content {
+    background-color: #25396f;
+    color: #FFF;
+    width: 80px;
+    height: 35px;
+}
+
+.box-btn-content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.box-intro {
+    border: 2px solid #25396f;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 8px 5px rgba(37, 57, 111, 0.21);
+}
+
+@media (max-width: 768px) {
+    .btn-edit-content {
+        background-color: #25396f;
+        color: #FFF;
+        width: 80px;
+        height: 35px;
+    }
+
+    .box-btn-content {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 5px auto;
+    }
+
+    .box-intro {
+        border: 2px solid #25396f;
+        border-radius: 10px;
+        padding: 5px;
+        box-shadow: 2px 2px 8px 5px rgba(37, 57, 111, 0.21);
+    }
+}
+
+@media (min-width: 1200px) {
+    .btn-edit-content {
+        background-color: #25396f;
+        color: #FFF;
+        width: 80px;
+        height: 35px;
+    }
+
+    .box-btn-content {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 10px auto;
+    }
+
+    .box-intro {
+        border: 2px solid #25396f;
+        border-radius: 10px;
+        padding: 5px;
+        box-shadow: 2px 2px 8px 5px rgba(37, 57, 111, 0.21);
+    }
+
+}
